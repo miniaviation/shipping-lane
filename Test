@@ -203,7 +203,7 @@ end
 
 local function loadBulkPortA()
     local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/miniaviation/shipping/refs/heads/main/load%20in%20newport.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/miniaviation/shipping-lane/refs/heads/main/load%20in%20newport.lua"))()
     end)
     if not success then
         return false
@@ -213,7 +213,7 @@ end
 
 local function loadBulkPortB()
     local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/miniaviation/shipping/refs/heads/main/load%20in%20stanley%20habor.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/miniaviation/shipping-lane/refs/heads/main/load%20in%20stanley%20habor.lua"))()
     end)
     if not success then
         return false
@@ -223,7 +223,7 @@ end
 
 local function unloadBulkAnyPort()
     local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/miniaviation/shipping/refs/heads/main/unload.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/miniaviation/shipping-lane/refs/heads/main/unload.lua"))()
     end)
     if not success then
         return false
